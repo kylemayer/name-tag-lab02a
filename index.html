@@ -4,25 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Name Tage</title>
+    <title>Name Tag</title>
     <link rel="stylesheet" href="./styles.css">
 
 </head>
 <body>
 
 <main>
-    <div class="head">
+    <div class="head" id="tag-back">
         <h1>HELLO</h1>
         <span>my name is</span>
     </div>
 
     <div class="name">  
-        <span>Kyle Mayer</span>   
+        <span id="word-box">Kyle Mayer</span>   
     </div> 
         
     <div class="foot">
     </div>
+    <input id="my-input" placeholder="What is your name?"></input>
+    <button id="my-button">Change the name</button>
+    <form>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor">
+    </form>
+    <button id="color-button">Change the color of the name tag</button>
 </main>
+
+<script src="./app.js"></script>
 
 </body>
 </html>
